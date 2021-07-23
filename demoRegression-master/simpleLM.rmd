@@ -51,3 +51,20 @@ In the LENGTH~NECK model the adjusted R square was 0.747 and the residual standa
 The best model used is the LENGTH~CHEST model because it explains more of the errors made , and its residual standard error is smaller.
 
 
+
+```{r}
+myheadw <- lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
+abline(myheadw)
+summary.lm(myheadw)
+```
+
+This LENGTH~HEADWTH model,isn't as useful. 
+The adjusted R square is 0.532 and has gone downwards and residual standard error has gone up to 7.32 and displaying immediate failure results.
+
+
+
+
+
+
+
