@@ -70,8 +70,13 @@ abline(myheadl)
 summary.lm(myheadl)
 ```
 
-The LENGTH~HEADLEN model the adjusted R-squared is 0.843 and the residual standard error is 4.235 which is by far the best results because it is most reasonable for the r-square is giving a bigger adjusted R sqaure by far compared to the previous models.
+The LENGTH~HEADLEN model the adjusted R-squared is 0.843 and the residual standard error is 4.235 which is by far the best results because it is most reasonable for the r-square is giving a bigger adjusted R square by far compared to the previous models.
 
 This model provides as the better prediction.
 
 
+## conclusion 
+
+To conclude, of all four models(named from first to last) LENGTH~NECK which was first provided, And the ones created following behind them being LENGTH~CHEST, LENGTH~HEADWTH, and LENGTH~HEADLEN. This was done by sing the helpful block that was used at the model provided by making amends for it to test run other variables. 
+LENGTH~CHEST was found to be better than LENGTH~NECK at first since the goal was to find one better. Only to test luck and find that the next one LENGTH~HEADWTH was completely useless, since it was not what we were searching for (A bigger and better adjusted R square).
+Until Finally we attempted the model LENGTH~HEADLEN, turned out to be the last model needed becasue it was the best model with the Adjusted R square of 0.843, Thus, it concludes our search for the "Bigger and Better" model than Model 01 of LENGTH~NECK.
