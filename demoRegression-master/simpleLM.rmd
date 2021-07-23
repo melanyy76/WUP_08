@@ -60,10 +60,15 @@ summary.lm(myheadw)
 ```
 
 This LENGTH~HEADWTH model,isn't as useful. 
-The adjusted R square is 0.532 and has gone downwards and residual standard error has gone up to 7.32 and displaying immediate failure results.
+The adjusted R square is 0.532 and has gone downwards and residual standard error has gone up to 7.32 and displaying immediate failing results.
 
 
-
+```{r}
+myheadl <- lm(LENGTH~HEADLEN,data=bears)
+plot(LENGTH~HEADLEN,data=bears)
+abline(myheadl)
+summary.lm(myheadl)
+```
 
 
 
