@@ -70,6 +70,8 @@ abline(myheadl)
 summary.lm(myheadl)
 ```
 
+The LENGTH~HEADLEN model the adjusted R-squared is 0.843 and the residual standard error is 4.235 which is by far the best results because it is most reasonable for the r-square is giving a bigger adjusted R sqaure by far compared to the previous models.
 
+This model provides as the better prediction.
 
 
